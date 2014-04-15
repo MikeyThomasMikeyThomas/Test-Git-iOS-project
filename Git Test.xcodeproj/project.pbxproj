@@ -21,6 +21,7 @@
 		A62CD08418FDD29100B6152F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62CD06618FDD29000B6152F /* UIKit.framework */; };
 		A62CD08C18FDD29100B6152F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A62CD08A18FDD29100B6152F /* InfoPlist.strings */; };
 		A62CD08E18FDD29100B6152F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CD08D18FDD29100B6152F /* Git_TestTests.m */; };
+		A62CD09918FDD68E00B6152F /* MTtest.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CD09818FDD68E00B6152F /* MTtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A62CD08918FDD29100B6152F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		A62CD08B18FDD29100B6152F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A62CD08D18FDD29100B6152F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		A62CD09718FDD68E00B6152F /* MTtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTtest.h; path = ../MTtest.h; sourceTree = "<group>"; };
+		A62CD09818FDD68E00B6152F /* MTtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTtest.m; path = ../MTtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A62CD07418FDD29000B6152F /* Main.storyboard */,
 				A62CD07718FDD29000B6152F /* MTViewController.h */,
 				A62CD07818FDD29000B6152F /* MTViewController.m */,
+				A62CD09718FDD68E00B6152F /* MTtest.h */,
+				A62CD09818FDD68E00B6152F /* MTtest.m */,
 				A62CD07A18FDD29000B6152F /* Images.xcassets */,
 				A62CD06918FDD29000B6152F /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62CD09918FDD68E00B6152F /* MTtest.m in Sources */,
 				A62CD06F18FDD29000B6152F /* main.m in Sources */,
 				A62CD07918FDD29000B6152F /* MTViewController.m in Sources */,
 				A62CD07318FDD29000B6152F /* MTAppDelegate.m in Sources */,
